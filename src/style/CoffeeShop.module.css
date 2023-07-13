@@ -1,0 +1,9 @@
+.main {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main p {
+    font-size: 24px;
+}
