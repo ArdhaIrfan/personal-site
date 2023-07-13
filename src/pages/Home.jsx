@@ -101,7 +101,7 @@ const Home = () => {
 						<div>
 							<h2>Ardha Irfan</h2>
 							<p className={styles.role}>UI/UX Designer | Frontend Web Developer</p>
-							<p className={styles.sum}>I am a person known for my friendly and outgoing personality, fueled by a genuine love for sports. My insatiable curiosity and passion for the sports industry have led me to pursue a career path in front-end web development and UI/UX design. With a creative mindset and broad imagination, I am eager to collaborate with others in creating an interconnected ecosystem.</p>
+							<p className={styles.sum}>I am a person known for my friendly and outgoing personality, fueled by a genuine love for sports. My insatiable curiosity and passion for the sports industry have led me to pursue a career path in front-end web development and UI/UX design. With a creative mindset and broad imagination, I am eager to collaborate with others in creating an interconnected ecosystem for sport enthusiasts.</p>
 						</div>
 					</div>
 					<div className={styles.profileCta}><a id="showHide" className={`${styles.btn} ${styles.btnSecondary}`} onClick={() => showAndHide()}>{showProfile ? "Hide Details" : "Show Details"}</a></div>
