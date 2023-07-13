@@ -34,7 +34,7 @@ const Home = () => {
 	// console.log(bar)
 	const showHideNav = () => {
 		const navbar = document.getElementById("navlist")
-		showNav ? navbar.style.display = "flex" : navbar.style.display = "none"
+		showNav ? navbar.style.display = "none" : navbar.style.display = "flex"
 		setShowNav(!showNav)
 	}
 
