@@ -1,8 +1,8 @@
 {
-    "routes": [
-      { "src": "/", "dest": "/" },
-      { "src": "/sporteev", "dest": "/sporteev" },
-      { "src": "/saroga", "dest": "/saroga" },
-      { "src": "/todo", "dest": "/todo" }
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
     ]
-  }
+}
