@@ -75,6 +75,7 @@ footer {
 }
 
 .btn {
+  min-width: 120px;
   display: inline-flex;
   padding: 20px 40px;
   justify-content: center;
@@ -173,6 +174,7 @@ footer {
 }
 
 .myPortfolio .card {
+  min-height: 300px;
   max-width: 300px;
   background-color: #F5F9FA;
   border-radius: 40px;
@@ -194,9 +196,9 @@ footer {
   margin: 0;
 }
 
-.card img {
+.myPortfolio .card img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .myPortfolio .btn {

@@ -7,6 +7,9 @@ import profilePhoto from '../assets/profile-photo.png'
 import experience from '../assets/experience.jpg'
 import awards from '../assets/awards.jpg'
 import contactPhoto from '../assets/contact-photo.jpg'
+import coffeeShop from '../assets/coffee-shop.png'
+import recipeFinder from '../assets/recipe-finder.png'
+import weatherForecast from '../assets/weather-forecast.png'
 import { HiOutlineMail } from "react-icons/hi"
 import { FaLinkedin, FaInstagram, FaTwitter, FaFacebook, FaBars } from "react-icons/fa6"
 import { Link } from 'react-router-dom'
@@ -73,7 +76,7 @@ const Home = () => {
 					<div className={`${styles.card} ${styles.flexColumn}`}>
 						<img src={sporteevMockup} alt="Sporteev Mockup" />
 						<div className={styles.flexColumn}>
-							<h6>Sporteev Mobile App</h6>
+							<h6>Sporteev Mobile App Case Study</h6>
 							<Link to='/sporteev' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">See Details</Link>
 						</div>
 					</div>
@@ -85,10 +88,31 @@ const Home = () => {
 						</div>
 					</div>
 					<div className={`${styles.card} ${styles.flexColumn}`}>
+						<img src={coffeeShop} alt="Coffee Shop Website" />
+						<div className={styles.flexColumn}>
+							<h6>Coffee Shop Website</h6>
+							<a href='https://ardhairfan.github.io/progate/coffee-shop' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">Visit</a>
+						</div>
+					</div>
+					<div className={`${styles.card} ${styles.flexColumn}`}>
 						<img src={todo} alt="Simple Todo App" />
 						<div className={styles.flexColumn}>
 							<h6>To-do App</h6>
-							<Link to='/todo' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">See Details</Link>
+							<Link to='/todo' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">Visit</Link>
+						</div>
+					</div>
+					<div className={`${styles.card} ${styles.flexColumn}`}>
+						<img src={weatherForecast} alt="Weather Focecast App" />
+						<div className={styles.flexColumn}>
+							<h6>Weather Forecast Web App</h6>
+							<a href='https://ardhairfan.github.io/progate/weather-forecast' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">Visit</a>
+						</div>
+					</div>
+					<div className={`${styles.card} ${styles.flexColumn}`}>
+						<img src={recipeFinder} alt="Recipe Finder Web App" />
+						<div className={styles.flexColumn}>
+							<h6>Recipe Finder Web App</h6>
+							<a href='https://ardhairfan.github.io/progate/find-recipes' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">Visit</a>
 						</div>
 					</div>
 				</div>
