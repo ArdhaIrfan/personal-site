@@ -10,6 +10,7 @@ import contactPhoto from '../assets/contact-photo.jpg'
 import coffeeShop from '../assets/coffee-shop.png'
 import recipeFinder from '../assets/recipe-finder.png'
 import weatherForecast from '../assets/weather-forecast.png'
+// import formValidation from '../assets/form-validation-mockup.png'
 import { HiOutlineMail } from "react-icons/hi"
 import { FaLinkedin, FaInstagram, FaTwitter, FaFacebook, FaBars } from "react-icons/fa6"
 import { Link } from 'react-router-dom'
@@ -62,7 +63,7 @@ const Home = () => {
 				<div className={`${styles.wrapper} ${styles.flexColumn}`}>
 					<div>
 						<h1>Ardha Irfan</h1>
-						<p>UI UX Designer | Frontend Web Developer</p>
+						<p>UI/UX Designer | Frontend Web Developer</p>
 					</div>
 					<div className={`${styles.cta} ${styles.flexRow}`}>
 						<a href="#portfolio" className={`${styles.btn} ${styles.btnPrimary}`}>My Portfolio</a>
@@ -84,7 +85,7 @@ const Home = () => {
 						<img src={sarogaMockup} alt="Saroga Mockup" />
 						<div className={styles.flexColumn}>
 							<h6>Saroga Mobile App</h6>
-							<Link to='/saroga' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">See Details</Link>
+							<a href='https://ardhairfan.github.io/ux-design/index.html' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">See Details</a>
 						</div>
 					</div>
 					<div className={`${styles.card} ${styles.flexColumn}`}>
@@ -115,6 +116,13 @@ const Home = () => {
 							<a href='https://ardhairfan.github.io/progate/find-recipes' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">Visit</a>
 						</div>
 					</div>
+					{/* <div className={`${styles.card} ${styles.flexColumn}`}>
+						<img src={formValidation} alt="Form Validation Registration Page" />
+						<div className={styles.flexColumn}>
+							<h6>Form Validation Page</h6>
+							<Link to='/form-validation' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">Visit</Link>
+						</div>
+					</div> */}
 				</div>
 			</section>
 			<section id="profile" className={styles.profile}>
@@ -198,8 +206,8 @@ const Home = () => {
 											</p>
 										</div>
 										<ul className={styles.detailedRole}>
-											<li>Had a role as the Hipster of Sporteev at the competition.</li>
-											<li>Designed Sporteev&apos;s product prototype.</li>
+											<li>Had a role as the product designer of Sporteev at the competition.</li>
+											<li>Designed end-to-end Sporteev&apos;s product prototype.</li>
 										</ul>
 									</div>
 									<div>
@@ -297,7 +305,7 @@ const Home = () => {
 							<p>My Portfolio</p>
 							<div className={styles.porto}>
 								<Link to='/sporteev'>Sporteev Mobile App</Link>
-								<Link to='/saroga'>Saroga Mobile App</Link>
+								<a href='https://ardhairfan.github.io/ux-design/index.html'>Saroga Mobile App</a>
 								<a href='https://ardhairfan.github.io/progate/coffee-shop'>Coffee Shop Website</a>
 								<Link to='/todo'>To-do App</Link>
 								<a href='https://ardhairfan.github.io/progate/weather-forecast'>Weather Forecast Web App</a>
