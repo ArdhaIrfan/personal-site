@@ -1,0 +1,54 @@
+.btn {
+    display: inline-flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    width: max-content;
+    cursor: pointer;
+}
+
+.btnPrimary {
+    background: var(--sporteev-primary);
+    color: var(--white);
+    transition: all .2s;
+}
+
+.btnPrimary:hover {
+    background: var(--sporteev-secondary);
+}
+
+.btnTransparent1 {
+    color: var(--sporteev-primary);
+    border-radius: 16px;
+    outline: 3px solid var(--sporteev-primary);
+    transition: all .2s;
+}
+
+.btnSecondary {
+    background: var(--sporteev-secondary);
+    color: var(--white);
+    transition: all .2s;
+}
+
+.btnSecondary:hover {
+    background: rgb(0, 74, 135);
+}
+
+.btnTransparent1:hover {
+    color: var(--sporteev-secondary);
+    outline: 3px solid var(--sporteev-secondary);
+}
+
+.btnBack {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    margin-bottom: 80px;
+}

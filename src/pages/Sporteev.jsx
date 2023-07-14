@@ -221,6 +221,7 @@ const Sporteev = () => {
 					<img className={styles.mockup} src={sporteevMockup} alt="Sporteev Mockup" />
 				</div>
 			</section>
+			{/* <Link to='/' className={`${styles.btn} ${styles.btnSecondary} ${styles.btnBack}`}>Back to Home Page</Link> */}
 			<footer>
 				<div className={styles.wrapper}>
 					<div className={styles.left}>

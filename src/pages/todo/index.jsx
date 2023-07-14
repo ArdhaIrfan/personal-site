@@ -1,6 +1,9 @@
 import { useState, createContext } from 'react'
 import Todos from './Todos'
 import TodoForm from './TodoForm'
+import { Helmet } from 'react-helmet';
+// import { Link } from 'react-router-dom'
+// import stylesExt from '../../style/Todo.module.css'
 
 export const TodoContext = createContext()
 
@@ -56,11 +59,15 @@ function App() {
   return (
 
     <TodoContext.Provider value={{ toggleCompleted, deleteTodo }}>
+      <Helmet>
+				<title>{"To-do App"}</title>
+			</Helmet>
       <div style={styles.container}>
         <h1 style={styles.title}>My Todo List</h1>
         <TodoForm addTodo={addTodo} />
         <Todos todos={todos} />
       </div>
+      {/* <Link to='/' className={`${stylesExt.btn} ${stylesExt.btnSecondary} ${stylesExt.btnBack}`}>Back to Home Page</Link> */}
     </TodoContext.Provider>
   )
 }

@@ -15,6 +15,20 @@
   font-size: 18px;
 }
 
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 200px;
+  gap: 32px;
+}
+
+.section h3 {
+  color: var(--sporteev-primary);
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+
 .btn {
   display: inline-flex;
   padding: 20px 40px;
@@ -28,20 +42,6 @@
   text-decoration: none;
   width: max-content;
   cursor: pointer;
-}
-
-.section {
-  display: flex;
-  flex-direction: column;
-  padding: 50px 200px;
-  gap: 32px;
-}
-
-.section h3 {
-  color: var(--sporteev-primary);
-  font-size: 32px;
-  font-weight: 600;
-  margin: 0;
 }
 
 .btnPrimary {
@@ -74,6 +74,13 @@
 .btnTransparent1:hover {
   color: var(--sporteev-secondary);
   outline: 3px solid var(--sporteev-secondary);
+}
+
+.btnBack {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 80px;
 }
 
 .section.hero {
@@ -375,7 +382,7 @@
 }
 
 .results {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .results, .results .title {
@@ -415,7 +422,7 @@ footer .left a {
 
 footer .left a:hover h5,
 footer .left a:hover p {
-  color: #018ABE;
+  color: var(--secondary);
   transition: all .2s;
 }
 
@@ -504,7 +511,7 @@ footer .social a {
 
 footer .group a:hover,
 footer .social a:hover {
-  color: #018ABE;
+  color: var(--secondary);
 }
 
 footer .copyright {
@@ -513,4 +520,178 @@ footer .copyright {
   font-weight: 300;
   text-align: center;
   margin: 0;
+}
+
+/* ============================================= */
+/* RESPONSIVE CSS */
+
+@media only screen and (max-width: 992px) {
+
+  footer .right {
+    flex-direction: column;
+    gap: 40px;
+    margin: right;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .body p {
+    line-height: 152%;
+    font-size: 16px;
+  }
+
+  .hero h1 {
+    font-size: 20px;
+  }
+
+  .section {
+    padding: 50px 32px;
+  }
+
+  .quotes {
+    padding-top: 20px;
+  }
+
+  .quotes p {
+    font-size: 24px;
+  }
+
+  .overview>div {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .overview img {
+    width: 250px;
+  }
+
+  .overview .upper {
+    gap: 32px;
+  }
+
+  .footballSvg {
+    width: 72vw;
+  }
+
+  .core {
+    padding: 100px 32px;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .core img {
+    width: 60vw;
+  }
+
+  .core p {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .solutions {
+    grid-template-columns: auto;
+    padding: 100px 32px;
+  }
+
+  .myrole .content>div {
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .myrole .content img, .challenge .content img {
+    width: 80vw;
+  }
+
+  .challenge .content {
+    flex-direction: column;
+  }
+
+  .teamwork {
+    height: 250px;
+    width: auto;
+    object-fit: cover;
+  }
+
+  .results {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .results>div {
+    padding: 60px 36px;
+  }
+
+  footer {
+    padding: 100px 32px 60px 32px;
+  }
+
+  footer .wrapper {
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+  }
+
+  footer .left {
+    margin: auto;
+  }
+
+  footer .left a {
+    gap: 24px;
+  }
+
+  footer .left img {
+    width: 48px;
+    border-radius: 24px;
+  }
+
+  footer .left div {
+    gap: 4px;
+  }
+
+  footer .left h5 {
+    font-size: 24px;
+  }
+
+  footer .left p {
+    font-size: 12px;
+  }
+  
+  footer .right .group, footer .group .porto, footer .group .social {
+    align-items: center;
+  }
+
+  footer .right {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .section.hero {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 36px;
+    padding: 180px 32px 80px 32px;
+    height: 100vh;
+  }
+
+  .section.hero>div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero .mockup {
+    width: 60vw;
+  }
+  
+  .hero .logo {
+    width: 48vw;
+  }
 }
