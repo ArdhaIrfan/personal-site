@@ -237,8 +237,12 @@ const Sporteev = () => {
 						<div className={styles.group}>
 							<p>My Portfolio</p>
 							<div className={styles.porto}>
-								<Link to='/sporteev' rel="noreferrer" target="_blank">Sporteev Mobile App</Link>
-								<Link to='#'>Saroga Mobile App</Link>
+								<Link to='/sporteev'>Sporteev Mobile App</Link>
+								<Link to='/saroga'>Saroga Mobile App</Link>
+								<a href='https://ardhairfan.github.io/progate/coffee-shop'>Coffee Shop Website</a>
+								<Link to='/todo'>To-do App</Link>
+								<a href='https://ardhairfan.github.io/progate/weather-forecast'>Weather Forecast Web App</a>
+								<a href='https://ardhairfan.github.io/progate/find-recipes'>Recipe Finder Web App</a>
 							</div>
 						</div>
 						<div className={styles.group}>
