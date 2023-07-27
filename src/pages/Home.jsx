@@ -63,7 +63,7 @@ const Home = () => {
 				<div className={`${styles.wrapper} ${styles.flexColumn}`}>
 					<div>
 						<h1>Ardha Irfan</h1>
-						<p>UI/UX Designer | Frontend Web Developer</p>
+						<p>UI/UX Design and Frontend Web Enthusiast</p>
 					</div>
 					<div className={`${styles.cta} ${styles.flexRow}`}>
 						<a href="#portfolio" className={`${styles.btn} ${styles.btnPrimary}`}>My Portfolio</a>
@@ -84,7 +84,7 @@ const Home = () => {
 					<div className={`${styles.card} ${styles.flexColumn}`}>
 						<img src={sarogaMockup} alt="Saroga Mockup" />
 						<div className={styles.flexColumn}>
-							<h6>Saroga Mobile App</h6>
+							<h6>Saroga Mobile App Case Study</h6>
 							<a href='https://ardhairfan.github.io/ux-design/index.html' className={`${styles.btn} ${styles.btnSecondary}`} rel="noreferrer" target="_blank">See Details</a>
 						</div>
 					</div>
@@ -132,7 +132,7 @@ const Home = () => {
 						<img className={styles.profilePhoto} src={profilePhoto} alt="Profile Photo" />
 						<div>
 							<h2>Ardha Irfan</h2>
-							<p className={styles.role}>UI/UX Designer | Frontend Web Developer</p>
+							<p className={styles.role}>UI/UX Design and Frontend Web Enthusiast</p>
 							<p className={styles.sum}>I am a person known for my friendly and outgoing personality, fueled by a genuine love for sports. My insatiable curiosity and passion for the sports industry have led me to pursue a career path in front-end web development and UI/UX design. With a creative mindset and broad imagination, I am eager to collaborate with others in creating an interconnected ecosystem for sport enthusiasts.</p>
 						</div>
 					</div>
@@ -142,6 +142,54 @@ const Home = () => {
 						<div className={`${styles.catDetail} ${styles.flexRow}`}>
 							<img className={styles.catPhoto} src={experience} alt="Experience" />
 							<div className={styles.catList}>
+							<div>
+									<div className={`${styles.item} ${styles.flexColumn}`}>
+										<h6 className={styles.name}>
+											UI/UX Design Mentee - Digistar Class 2023 by Telkom Indonesia
+										</h6>
+										<p className={styles.period}>
+											July 2023 - Present
+										</p>
+									</div>
+									<ul className={styles.detailedRole}>
+										<li>Participate in a 2-month intensive mentoring program in UI/UX design conducted by Telkom Indonesia</li>
+										<li>Successfully selected as one of the 500 mentees from a highly competitive pool of more than 15,000 applicants</li>
+										<li>Collaborate with a group of 10 individuals to brainstorm and develop a social project idea aimed at reducing the percentage of poverty in Indonesia</li>
+									</ul>
+								</div>
+								<div>
+									<div className={`${styles.item} ${styles.flexColumn}`}>
+										<h6 className={styles.name}>
+										Frontend Web Development Bootcamp Student - Progate
+										</h6>
+										<p className={styles.period}>
+											February 2023 - June 2023
+										</p>
+									</div>
+									<ul className={styles.detailedRole}>
+										<li>Successfully completed a four and a half month intensive frontend web development bootcamp program</li>
+										<li>Acquired end-to-end skills in frontend web development using ReactJS framework and local development server Vite</li>
+										<li>Gained practical knowledge in essential technologies, including HTML, CSS, Javascript, Typescript, Git version control, responsive web development, AJAX, and API</li>
+										<li>Demonstrated proficiency by completing challenges and enriching my portfolio. Check out my work at https://ardhairfan.vercel.app</li>
+									</ul>
+								</div>
+								<div>
+									<div className={`${styles.item} ${styles.flexColumn}`}>
+										<h6 className={styles.name}>
+											Indonesian International Student Mobility Awards (IISMA) 2022
+										</h6>
+										<p className={styles.period}>
+											September 2022 - February 2023
+										</p>
+									</div>
+									<ul className={styles.detailedRole}>
+										<li>One semester study program at Faculty of Geo-information Science and Earth Observation, University of Twente, Netherlands</li>
+										<li>Chosen as one out of 1550 awardees, competing with more than 7 thousand applicants</li>
+										<li> Fully funded scholarship covering tuition fee, living allowance, and transportation cost during the program at UT</li>
+										<li>Acquired knowledge in Geographic Information Systems (GIS) and Earth Observations</li>
+										<li>Successfully completed 2 final projects: Geo-tracker web app and machine learning classification for 3D earth surface area</li>
+									</ul>
+								</div>
 								<div>
 									<div className={`${styles.item} ${styles.flexColumn}`}>
 										<h6 className={styles.name}>
@@ -176,16 +224,16 @@ const Home = () => {
 								<div>
 									<div className={`${styles.item} ${styles.flexColumn}`}>
 										<h6 className={styles.name}>
-											Indonesian International Student Mobility Awards (IISMA) 2022
+											Vice Chairman of Human Resource Development Division - ITS Badminton Community
 										</h6>
 										<p className={styles.period}>
-											September 2022 - February 2023
+											January 2022 - December 2022
 										</p>
 									</div>
 									<ul className={styles.detailedRole}>
-										<li>One semester study program at Faculty of Geo-information Science and Earth Observation, University of Twente, Netherlands</li>
-										<li>Chosen as one out of 1550 awardees, competing with more than 7 thousand applicants</li>
-										<li> Fully funded scholarship covering tuition fee, living allowance, and transportation cost during the program at UT</li>
+										<li>Formulated strategies to develop badminton practical skills and knowledge for over 200 members</li>
+										<li>Coached the members using badminton training programs that were created beforehand</li>
+										<li>Educated the society about badminton through Instagram account with more than 2000 followers</li>
 									</ul>
 								</div>
 							</div>
@@ -196,10 +244,23 @@ const Home = () => {
 							<h4>Awards</h4>
 							<div className={`${styles.catDetail} ${styles.flexRow}`}>
 								<div className={styles.catList}>
+								<div>
+										<div className={`${styles.item} ${styles.flexColumn}`}>
+											<h6 className={styles.name}>
+												Sporteev: 1st Runner-up - National Competition of Sport Innovation and Digital Technology 2022
+											</h6>
+											<p className={styles.period}>
+												November 2022
+											</p>
+										</div>
+										<ul className={styles.detailedRole}>
+											<li>Sporteev won the second place in the “community sports” category. The competition was held by The Ministry of Youth and Sports Affairs of Indonesia.</li>
+										</ul>
+									</div>
 									<div>
 										<div className={`${styles.item} ${styles.flexColumn}`}>
 											<h6 className={styles.name}>
-												Sporteev as the Best Team - COMPFEST Startup Academy 2022
+												Sporteev: The Best Team - COMPFEST Startup Academy 2022
 											</h6>
 											<p className={styles.period}>
 												September 2022
@@ -208,19 +269,6 @@ const Home = () => {
 										<ul className={styles.detailedRole}>
 											<li>Had a role as the product designer of Sporteev at the competition.</li>
 											<li>Designed end-to-end Sporteev&apos;s product prototype.</li>
-										</ul>
-									</div>
-									<div>
-										<div className={`${styles.item} ${styles.flexColumn}`}>
-											<h6 className={styles.name}>
-												Sporteev as the 2nd Place Winner - National Competition of Sport Innovation and Digital Technology 2022
-											</h6>
-											<p className={styles.period}>
-												November 2022
-											</p>
-										</div>
-										<ul className={styles.detailedRole}>
-											<li>Sporteev won the second place in the “community sports” category. The competition was held by The Ministry of Youth and Sports Affairs of Indonesia.</li>
 										</ul>
 									</div>
 									<img className={styles.awardsPic} src={awards} alt="Award" />
@@ -296,7 +344,7 @@ const Home = () => {
 							<img src={profilePhoto} alt="Profile Pic" />
 							<div>
 								<h5>Ardha Irfan</h5>
-								<p>UI/UX Designer | Frontend Web Developer</p>
+								<p>UI/UX Design and Frontend Web Enthusiast</p>
 							</div>
 						</a>
 					</div>
