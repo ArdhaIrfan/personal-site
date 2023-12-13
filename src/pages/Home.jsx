@@ -66,8 +66,8 @@ const Home = () => {
 						<p>UI/UX Design and Frontend Web Enthusiast</p>
 					</div>
 					<div className={`${styles.cta} ${styles.flexRow}`}>
-						<a href="#portfolio" className={`${styles.btn} ${styles.btnPrimary}`}>My Portfolio</a>
-						<a href="#profile" className={`${styles.btn} ${styles.btnTransparent1}`}>Profile</a>
+						<a href="https://drive.google.com/drive/folders/1hnrnPa_AnsFa5TLM1vdY4jcMHVjjve9N?usp=drive_link" className={`${styles.btn} ${styles.btnPrimary}`} target="_blank" rel="noreferrer">My PM Portfolio</a>
+						{/* <a href="#profile" className={`${styles.btn} ${styles.btnTransparent1}`}>Profile</a> */}
 					</div>
 				</div>
 			</div>
