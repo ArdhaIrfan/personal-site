@@ -136,42 +136,44 @@ const Home = () => {
               <p className={styles.sum}>Ardha is a final-year undergraduate Information Systems student, deeply passionate about digital product development. He boasts a track record of founding a startup in the sport-tech industriy called Sporteev. With proficient skills in UI/UX design and frontend web development, he nurtures a forwardlooking vision and aspires to pioneer product innovation within the digital landscape.</p>
             </div>
           </div>
-          <div className={styles.profileCta}><a id="showHide" className={`${styles.btn} ${styles.btnSecondary}`} onClick={() => showAndHide()}>{showProfile ? "Hide Details" : "Show Details"}</a></div>
           <div className={`${styles.category} ${styles.experience} ${styles.flexColumn}`}>
             <h4>Experience</h4>
             <div className={`${styles.catDetail} ${styles.flexRow}`}>
-              <img className={styles.catPhoto} src={experience} alt="Experience" />
+              <div className={styles.flexColumn}>
+                <img className={styles.catPhoto} src={experience} alt="Experience" />
+                <div className={styles.profileCta}><a id="showHide" className={`${styles.btn} ${styles.btnSecondary}`} onClick={() => showAndHide()}>{showProfile ? "Hide Details" : "Show Details"}</a></div>
+              </div>
               <div className={styles.catList}>
                 <div>
-									<div className={`${styles.item} ${styles.flexColumn}`}>
-										<h6 className={styles.name}>
-											Project-Based Virtual Internship: Product Manager - Rakamin Academy
-										</h6>
-										<p className={styles.period}>
-											November 2023 - December 2023
-										</p>
-									</div>
-									<ul className={styles.detailedRole}>
-										<li>Finished the project-based internship program with final score 92/100</li>
-										<li>Completed the final task: created a product development plan for a hiring platform.</li>
-										<li>Learned comprehensive aspect of Product Management, including product requirement document, Agile methodology, SCRUM framework, product release planning, market and user research, user journey mapping, and user flow.</li>
-									</ul>
-								</div>
+                  <div className={`${styles.item} ${styles.flexColumn}`}>
+                    <h6 className={styles.name}>
+                      Project-Based Virtual Internship: Product Manager - Rakamin Academy
+                    </h6>
+                    <p className={styles.period}>
+                      November 2023 - December 2023
+                    </p>
+                  </div>
+                  <ul className={styles.detailedRole}>
+                    <li>Finished the project-based internship program with final score 92/100</li>
+                    <li>Completed the final task: created a product development plan for a hiring platform.</li>
+                    <li>Learned comprehensive aspect of Product Management, including product requirement document, Agile methodology, SCRUM framework, product release planning, market and user research, user journey mapping, and user flow.</li>
+                  </ul>
+                </div>
                 <div>
-									<div className={`${styles.item} ${styles.flexColumn}`}>
-										<h6 className={styles.name}>
-											Head of Product - Sporteev
-										</h6>
-										<p className={styles.period}>
-											August 2021 - Present
-										</p>
-									</div>
-									<ul className={styles.detailedRole}>
-										<li>Manage 7 other team members to develop a digital product that serves as a platform for sport enthusiasts to find their sport buddies.</li>
-										<li>Conducted user research via surveys with 200+ respondents and FGDs as well as interviewed 10 people to continuously improve product development.</li>
-										<li>Design the Sporteev mobile app MVP using Figma based on market and user research.</li>
-									</ul>
-								</div>
+                  <div className={`${styles.item} ${styles.flexColumn}`}>
+                    <h6 className={styles.name}>
+                      Head of Product - Sporteev
+                    </h6>
+                    <p className={styles.period}>
+                      August 2021 - Present
+                    </p>
+                  </div>
+                  <ul className={styles.detailedRole}>
+                    <li>Manage 7 other team members to develop a digital product that serves as a platform for sport enthusiasts to find their sport buddies.</li>
+                    <li>Conducted user research via surveys with 200+ respondents and FGDs as well as interviewed 10 people to continuously improve product development.</li>
+                    <li>Design the Sporteev mobile app MVP using Figma based on market and user research.</li>
+                  </ul>
+                </div>
                 <div>
                   <div className={`${styles.item} ${styles.flexColumn}`}>
                     <h6 className={styles.name}>

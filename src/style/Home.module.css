@@ -271,6 +271,7 @@ footer {
 
 .profile .category .catPhoto {
   height: 235px;
+  width: 235px;
   border-radius: 118px;
 }
 
@@ -339,8 +340,12 @@ footer {
 }
 
 .profile .profileCta {
-  margin-top: 100px;
+  margin-top: 40px;
   text-align: center;
+}
+
+.profile .profileCta .btn {
+  font-size: 20px;
 }
 
 .contact h2 {
@@ -637,6 +642,7 @@ footer .copyright {
 
   .profile .category .catPhoto {
     height: 180px;
+    width: 180px;
     border-radius: 90px;
   }
 
